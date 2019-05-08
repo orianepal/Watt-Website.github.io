@@ -32,6 +32,8 @@ h4 {
 	text-align: center;
 }
 
+
+
 header{
   position: fixed;
   left: 0;
@@ -53,6 +55,10 @@ a{
   text-decoration: none;
 }
 
+
+hr { height: 1px;
+    border: 0; border-top: 1px solid #ffcf11;
+    padding: 0; }
 
 
 .box {
