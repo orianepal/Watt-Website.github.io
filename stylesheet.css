@@ -93,6 +93,36 @@ a{
   top: 150px;
 }
 
+input[type=file] {
+  cursor: pointer;
+  width: 180px;
+  height: 34px;
+  overflow: hidden;
+}
+
+input[type=file]:before {
+  width: 158px;
+  height: 32px;
+  font-size: 16px;
+  line-height: 32px;
+   color: #000020;
+  content: 'Select your files';
+  display: inline-block;
+  background: #ffcf11;
+  border: 1px solid #000;
+  padding: 0 10px;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif; 
+  
+  
+}
+
+input[type=file]::-webkit-file-upload-button {
+  visibility: hidden;
+  
+}
+
+
 
 
 
